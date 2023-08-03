@@ -4,7 +4,7 @@ using namespace std;
 void search(int, vector<int>, vector<int>, vector<vector<int>>&);
 
 int main() {
-    vector<int> mySet = {1, 2, 3};
+    vector<int> mySet = {10, 20, 30};
     vector<vector<int>> powerset;
     search(0, mySet, {}, powerset);
 
