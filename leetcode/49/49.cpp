@@ -2,7 +2,6 @@ class Solution {
 public:
     string hash(string s) {
         string hash;
-        int i=0;
         for (int j=0; j<26; j++)
             hash.push_back('0');
         for (char i: s)
